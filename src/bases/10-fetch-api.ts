@@ -11,4 +11,4 @@ myRequest.then( (Response) => Response.json()).then((data) => {
     imgElement.src = imageUrl;
     document.body.append(imgElement);
 
-}).catch(( err) => { });
+}).catch(( err) => { console.error(err)});
