@@ -12,7 +12,8 @@ import './bases/081-ImportExport'
 import {getHeroByOwner} from './bases/081-ImportExport'
 import {Owner} from './Data/Heroes.data'
 //import './bases/09-promesas'
-import './bases/10-fetch-api'
+//import './bases/10-fetch-api'
+import './bases/11-async-await'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <div> 
